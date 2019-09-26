@@ -1,0 +1,98 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>com.proximipro.engage.android.core - engage</title>
+<link rel="stylesheet" href="../style.css">
+</HEAD>
+<BODY>
+<a href="../index.html">engage</a>&nbsp;/&nbsp;<a href="./index.html">com.proximipro.engage.android.core</a><br/>
+<br/>
+<h2>Package com.proximipro.engage.android.core</h2>
+<h3>Types</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-beacon-scan-result-listener/index.html">BeaconScanResultListener</a></p>
+</td>
+<td>
+<code><span class="keyword">abstract</span> <span class="keyword">class </span><span class="identifier">BeaconScanResultListener</span></code>
+<p>Interface that provides beacon scan events based on processed results</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-content-loader/index.html">ContentLoader</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">ContentLoader</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">KoinComponent</span></code>
+<p>Responsible for making and managing api calls to load content and pass it to the user</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-engage-config/index.html">EngageConfig</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">EngageConfig</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-pref-delegate.html"><span class="identifier">PrefDelegate</span></a></code>
+<p>SharedPreference wrapper for managing preferences specific to this SDK</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-initialization-request/index.html">InitializationRequest</a></p>
+</td>
+<td>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">InitializationRequest</span></code>
+<p>SDK initialization request that holds initialization request parameters information</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-location-broadcast-receiver/index.html">LocationBroadcastReceiver</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">LocationBroadcastReceiver</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html"><span class="identifier">BroadcastReceiver</span></a></code>
+<p>Receives location updates and sets location live data value</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-location-settings-activity/index.html">LocationSettingsActivity</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">LocationSettingsActivity</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">AppCompatActivity</span><span class="symbol">, </span><span class="identifier">OnRequestPermissionsResultCallback</span></code>
+<p>This activity is used to resolve location settings resolution</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-notification-info/index.html">NotificationInfo</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">NotificationInfo</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-pref-delegate.html"><span class="identifier">PrefDelegate</span></a></code>
+<p>Stored all the configuration related to service notification for the sdk</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-pref-delegate.html">PrefDelegate</a></p>
+</td>
+<td>
+<code><span class="keyword">open</span> <span class="keyword">class </span><span class="identifier">PrefDelegate</span></code>
+<p>Delegate class used for creating preference delegated properties</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="-user-config/index.html">UserConfig</a></p>
+</td>
+<td>
+<code><span class="keyword">class </span><span class="identifier">UserConfig</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="-pref-delegate.html"><span class="identifier">PrefDelegate</span></a></code>
+<p>Holds information related to the registered user</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

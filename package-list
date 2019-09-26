@@ -1,0 +1,13 @@
+$dokka.format:html
+$dokka.linkExtension:html
+$dokka.location:com.proximipro.engage.android.util$awaitOnIO(kotlinx.coroutines.Deferred((com.proximipro.engage.android.util.awaitOnIO.T)))com.proximipro.engage.android.util/kotlinx.coroutines.-deferred/await-on-i-o.html
+com.proximipro.engage.android
+com.proximipro.engage.android.core
+com.proximipro.engage.android.exception
+com.proximipro.engage.android.model
+com.proximipro.engage.android.model.common
+com.proximipro.engage.android.model.remote
+com.proximipro.engage.android.model.remote.response
+com.proximipro.engage.android.provider
+com.proximipro.engage.android.util
+com.proximipro.engage.android.view
