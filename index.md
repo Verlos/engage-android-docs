@@ -1,6 +1,4 @@
-# ProximiPro Engage SDK User Guide
-
-Welcome to Engage SDK user guide. Here, you can find all the code snippets and required to use each and every feature of the Engage SDK. You can also view SDK documentation [here](https://verlos.github.io/engage-android-docs/index.html). Let's get started.
+Welcome to Engage SDK user guide. Here, you can find all the code snippets and required to use each and every feature of the Engage SDK. You can also view SDK documentation [here](https://verlos.github.io/engage-android-docs/docs.html). Let's get started.
 
 
 
@@ -27,7 +25,7 @@ dependencies {
 
 Sync your project and you're ready to go.
 
-You can find documentation of the SDK [here](https://github.com/verlos/engage-sdk-docs/). Follow this user guide to get started with the SDK.
+You can find documentation of the SDK [here](https://verlos.github.io/engage-android-docs/docs.html). Follow this user guide to get started with the SDK.
 
 
 
@@ -314,7 +312,7 @@ Changing this configuration is very easy. Just assign a new value to it. However
 engage.config().appName = "Engage Demo"
 ```
 
-Please refer to the docs for more information on available customizations [here](https://verlos.github.io/engage-android-docs/com.proximipro.engage.android.core/-engage-config/index.html). 
+Please refer to the docs for more information on available customizations [here](https://verlos.github.io/engage-android-docs/docs/com.proximipro.engage.android.core/-engage-config/index.html). 
 
 
 
