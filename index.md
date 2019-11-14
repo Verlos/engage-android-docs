@@ -19,7 +19,7 @@ Now, open app level build.gradle file found at `app/build.gradle` and add this d
 
 ```groovy
 dependencies {
-    implementation 'com.proximipro:engage-android:0.0.3'
+    implementation 'com.proximipro:engage-android:1.2.0-beta1'
 }
 ```
 
