@@ -1,0 +1,168 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>EngageConfig - engage</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">engage</a>&nbsp;/&nbsp;<a href="../index.html">com.proximipro.engage.android.core</a>&nbsp;/&nbsp;<a href="./index.html">EngageConfig</a><br/>
+<br/>
+<h1>EngageConfig</h1>
+<code><span class="keyword">class </span><span class="identifier">EngageConfig</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="../-pref-delegate.html"><span class="identifier">PrefDelegate</span></a></code>
+<p>SharedPreference wrapper for managing preferences specific to this SDK</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="api-key.html">apiKey</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">apiKey</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>API key of the SDK, provided by Engage platform</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="app-name.html">appName</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">appName</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Name of the application that uses this SDK, it will be used as notification title</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="beacon-u-u-i-d.html">beaconUUID</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">beaconUUID</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>UUID of the beacon that used to filter out Engage beacons</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="client-id.html">clientId</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">clientId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Client ID of the SDK, provided by Engage platform</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-background-mode-enabled.html">isBackgroundModeEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">isBackgroundModeEnabled</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Determines whether to start scan in background or not</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-location-based-content-enabled.html">isLocationBasedContentEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">isLocationBasedContentEnabled</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Determines whether location should be used show location based content or not</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-notification-enabled.html">isNotificationEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">isNotificationEnabled</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Determines whether the notifications should be shown or not</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-user-registered.html">isUserRegistered</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">isUserRegistered</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Determines whether the user is registered or not</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="pending-intent-class-name.html">pendingIntentClassName</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">pendingIntentClassName</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Used to create PendingIntent for notifications. When a notification is clicked, this activity class name will be used to start activity</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="region-id.html">regionId</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">regionId</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Region identifier for the beacon scan process</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="service-notification-info.html">serviceNotificationInfo</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">serviceNotificationInfo</span><span class="symbol">: </span><a href="../-notification-info/index.html"><span class="identifier">NotificationInfo</span></a></code>
+<p>Contains information related to always on service notification</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="snooze-content-time-in-hours.html">snoozeContentTimeInHours</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">snoozeContentTimeInHours</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a></code>
+<p>The time in hours for which duration, the foreground content will be snoozed</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="snooze-notification-time-in-minutes.html">snoozeNotificationTimeInMinutes</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">snoozeNotificationTimeInMinutes</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a></code>
+<p>The time in minutes for which duration, notifications will be snoozed</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="user-config.html">userConfig</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">userConfig</span><span class="symbol">: </span><a href="../-user-config/index.html"><span class="identifier">UserConfig</span></a></code>
+<p>Contains user related information</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="snooze-content.html">snoozeContent</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">snoozeContent</span><span class="symbol">(</span><span class="identifier" id="com.proximipro.engage.android.core.EngageConfig$snoozeContent(kotlin.Long)/durationInHours">durationInHours</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Snoozes Content loading for given amount of time</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="snooze-notifications.html">snoozeNotifications</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">snoozeNotifications</span><span class="symbol">(</span><span class="identifier" id="com.proximipro.engage.android.core.EngageConfig$snoozeNotifications(kotlin.Long)/durationInMinutes">durationInMinutes</span><span class="symbol">:</span>&nbsp;<a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html"><span class="identifier">Long</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Snoozes notifications for given amount of time</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>NotificationData - engage</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">engage</a>&nbsp;/&nbsp;<a href="../index.html">com.proximipro.engage.android.util</a>&nbsp;/&nbsp;<a href="./index.html">NotificationData</a><br/>
+<br/>
+<h1>NotificationData</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">NotificationData</span></code>
+<p>Holds data that needs to be sent into the notification intent</p>
+<h3>Parameters</h3>
+<p><a name="rule"></a>
+<code>rule</code> - is the Rule triggered for the notification</p>
+<p><a name="action"></a>
+<code>action</code> - is the action for which the notification is triggered</p>
+<p><a name="location"></a>
+<code>location</code> - is the location coordinates for which the location rule is triggered</p>
+<p><a name="beacon"></a>
+<code>beacon</code> - is the beacon for which the rule is triggered</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="action.html">action</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">action</span><span class="symbol">: </span><a href="../../com.proximipro.engage.android.model.common/-action/index.html"><span class="identifier">Action</span></a></code>
+<p>is the action for which the notification is triggered</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="beacon.html">beacon</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">beacon</span><span class="symbol">: </span><a href="../../com.proximipro.engage.android.model/-pro-beacon/index.html"><span class="identifier">ProBeacon</span></a><span class="symbol">?</span></code>
+<p>is the beacon for which the rule is triggered</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="location.html">location</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">location</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/location/Location.html"><span class="identifier">Location</span></a><span class="symbol">?</span></code>
+<p>is the location coordinates for which the location rule is triggered</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="rule.html">rule</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">rule</span><span class="symbol">: </span><a href="../../com.proximipro.engage.android.model.common/-rule/index.html"><span class="identifier">Rule</span></a></code>
+<p>is the Rule triggered for the notification</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="to-json.html">toJson</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">toJson</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Serializes an instance of <a href="./index.html">NotificationData</a> into json string</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="from.html">from</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">from</span><span class="symbol">(</span><span class="identifier" id="com.proximipro.engage.android.util.NotificationData.Companion$from(android.content.Intent)/intent">intent</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="./index.html"><span class="identifier">NotificationData</span></a><span class="symbol">?</span></code>
+<p>Creates an object of <a href="./index.html">NotificationData</a> class from the given intent</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,73 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Engage.Companion - engage</title>
+<link rel="stylesheet" href="../../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../../index.html">engage</a>&nbsp;/&nbsp;<a href="../../index.html">com.proximipro.engage.android</a>&nbsp;/&nbsp;<a href="../index.html">Engage</a>&nbsp;/&nbsp;<a href="./index.html">Companion</a><br/>
+<br/>
+<h1>Companion</h1>
+<code><span class="keyword">companion</span> <span class="keyword">object </span><span class="identifier">Companion</span>&nbsp;<span class="symbol">:</span>&nbsp;<span class="identifier">KoinComponent</span></code>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-i-n-t-e-n-t_-k-e-y_-n-o-t-i-f-i-c-a-t-i-o-n_-d-a-t-a.html">INTENT_KEY_NOTIFICATION_DATA</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">INTENT_KEY_NOTIFICATION_DATA</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="is-initialized.html">isInitialized</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">isInitialized</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code>
+<p>Determines whether the singleton instance of <a href="../index.html">Engage</a> class is initialized or not</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="is-logging-enabled.html">isLoggingEnabled</a></p>
+</td>
+<td>
+<code><span class="keyword">var </span><span class="identifier">isLoggingEnabled</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html"><span class="identifier">Boolean</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-api-key.html">getApiKey</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getApiKey</span><span class="symbol">(</span><span class="identifier" id="com.proximipro.engage.android.Engage.Companion$getApiKey(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code>
+<p>Provides the api key that the sdk uses</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="get-instance.html">getInstance</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getInstance</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="../index.html"><span class="identifier">Engage</span></a><span class="symbol">?</span></code>
+<p>Returns the singleton instance of <a href="../index.html">Engage</a> class</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="initialize.html">initialize</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">initialize</span><span class="symbol">(</span><span class="identifier" id="com.proximipro.engage.android.Engage.Companion$initialize(android.content.Context, com.proximipro.engage.android.core.InitializationRequest, com.proximipro.engage.android.util.InitializationCallback)/applicationContext">applicationContext</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">, </span><span class="identifier" id="com.proximipro.engage.android.Engage.Companion$initialize(android.content.Context, com.proximipro.engage.android.core.InitializationRequest, com.proximipro.engage.android.util.InitializationCallback)/request">request</span><span class="symbol">:</span>&nbsp;<a href="../../../com.proximipro.engage.android.core/-initialization-request/index.html"><span class="identifier">InitializationRequest</span></a><span class="symbol">, </span><span class="identifier" id="com.proximipro.engage.android.Engage.Companion$initialize(android.content.Context, com.proximipro.engage.android.core.InitializationRequest, com.proximipro.engage.android.util.InitializationCallback)/callback">callback</span><span class="symbol">:</span>&nbsp;<a href="../../../com.proximipro.engage.android.util/-initialization-callback/index.html"><span class="identifier">InitializationCallback</span></a>&nbsp;<span class="symbol">=</span>&nbsp;object : InitializationCallback() {}<span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code>
+<p>Initializes the singleton instance of <a href="../index.html">Engage</a> class.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

@@ -1,0 +1,86 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>Action - engage</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">engage</a>&nbsp;/&nbsp;<a href="../index.html">com.proximipro.engage.android.model.common</a>&nbsp;/&nbsp;<a href="./index.html">Action</a><br/>
+<br/>
+<h1>Action</h1>
+<code><span class="keyword">data</span> <span class="keyword">class </span><span class="identifier">Action</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/os/Parcelable.html"><span class="identifier">Parcelable</span></a></code>
+<p>Holds information related to the rule action</p>
+<h3>Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="meta.html">meta</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">meta</span><span class="symbol">: </span><a href="../-meta/index.html"><span class="identifier">Meta</span></a></code>
+<p>Holds parameter information for a particular beacon</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="name.html">name</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">name</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>The name of the action</p>
+</td>
+</tr>
+<tr>
+<td>
+<p><a href="type.html">type</a></p>
+</td>
+<td>
+<code><span class="keyword">val </span><span class="identifier">type</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a><span class="symbol">?</span></code>
+<p>The type of the action <a href="#">type_text,type_promotion,type_web</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="map-to-web-content.html">mapToWebContent</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">mapToWebContent</span><span class="symbol">(</span><span class="symbol">)</span><span class="symbol">: </span><a href="../../com.proximipro.engage.android.model.remote/-content/index.html"><span class="identifier">Content</span></a></code>
+<p>Creates <a href="../../com.proximipro.engage.android.model.remote/-content/index.html">Content</a> of type web from the data</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-t-y-p-e_-p-r-o-m-o-t-i-o-n.html">TYPE_PROMOTION</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">TYPE_PROMOTION</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-t-y-p-e_-t-e-x-t.html">TYPE_TEXT</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">TYPE_TEXT</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+<tr>
+<td>
+<p><a href="-t-y-p-e_-w-e-b.html">TYPE_WEB</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">TYPE_WEB</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>

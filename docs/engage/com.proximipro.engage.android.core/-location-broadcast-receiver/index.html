@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8">
+<title>LocationBroadcastReceiver - engage</title>
+<link rel="stylesheet" href="../../../style.css">
+</HEAD>
+<BODY>
+<a href="../../index.html">engage</a>&nbsp;/&nbsp;<a href="../index.html">com.proximipro.engage.android.core</a>&nbsp;/&nbsp;<a href="./index.html">LocationBroadcastReceiver</a><br/>
+<br/>
+<h1>LocationBroadcastReceiver</h1>
+<code><span class="keyword">class </span><span class="identifier">LocationBroadcastReceiver</span>&nbsp;<span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/BroadcastReceiver.html"><span class="identifier">BroadcastReceiver</span></a></code>
+<p>Receives location updates and sets location live data value</p>
+<h3>Constructors</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-init-.html">&lt;init&gt;</a></p>
+</td>
+<td>
+<code><span class="identifier">LocationBroadcastReceiver</span><span class="symbol">(</span><span class="symbol">)</span></code>
+<p>Receives location updates and sets location live data value</p>
+</td>
+</tr>
+</tbody>
+</table>
+<h3>Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="on-receive.html">onReceive</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">onReceive</span><span class="symbol">(</span><span class="identifier" id="com.proximipro.engage.android.core.LocationBroadcastReceiver$onReceive(android.content.Context, android.content.Intent)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">?</span><span class="symbol">, </span><span class="identifier" id="com.proximipro.engage.android.core.LocationBroadcastReceiver$onReceive(android.content.Context, android.content.Intent)/intent">intent</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Intent.html"><span class="identifier">Intent</span></a><span class="symbol">?</span><span class="symbol">)</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html"><span class="identifier">Unit</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Properties</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="-a-c-t-i-o-n_-p-r-o-c-e-s-s_-u-p-d-a-t-e-s.html">ACTION_PROCESS_UPDATES</a></p>
+</td>
+<td>
+<code><span class="keyword">const</span> <span class="keyword">val </span><span class="identifier">ACTION_PROCESS_UPDATES</span><span class="symbol">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html"><span class="identifier">String</span></a></code></td>
+</tr>
+</tbody>
+</table>
+<h3>Companion Object Functions</h3>
+<table>
+<tbody>
+<tr>
+<td>
+<p><a href="get-pending-intent.html">getPendingIntent</a></p>
+</td>
+<td>
+<code><span class="keyword">fun </span><span class="identifier">getPendingIntent</span><span class="symbol">(</span><span class="identifier" id="com.proximipro.engage.android.core.LocationBroadcastReceiver.Companion$getPendingIntent(android.content.Context)/context">context</span><span class="symbol">:</span>&nbsp;<a href="https://developer.android.com/reference/android/content/Context.html"><span class="identifier">Context</span></a><span class="symbol">)</span><span class="symbol">: </span><a href="https://developer.android.com/reference/android/app/PendingIntent.html"><span class="identifier">PendingIntent</span></a></code>
+<p>Creates pending intent that will be used for fusedLocationProviderClient to send location updates</p>
+</td>
+</tr>
+</tbody>
+</table>
+</BODY>
+</HTML>
