@@ -401,6 +401,16 @@ engage.config().pendingIntentClassName = "com.example.app.MainActivity"
 
 This will set `PendingIntent` for the notification taps to be redirected to the provided Activity class.
 
+#### Retrive Information from the tapped notification
+
+You'll need beacon and rule information in order to load content on notification tap event. You can do it in an eady way by using `NotificationData` class to retrieve information from the notification intent.
+
+```kotlin
+override fun onNewIntent(intent: Intent) {
+    super.onNewIntent(intent)
+    val data = NotificationData.from(intent) ?: retur
+}
+```
 
 
 ### Setting Beacon UUID
@@ -434,7 +444,37 @@ engage.updateApiKey(apiKey) { isVerified ->
 }
 ```
 
+### Snoozing notification & Content
 
+Engage SDK allows you to snooze untapped notifications and content of the tapped notifications in an easy way.
+
+#### Snooze Untapped Notifications
+
+```kotlin
+val snoozeTimeInMinutes: Long = 5
+engage.config().snoozeNotifications(snoozeTimeInMinutes)
+```
+
+#### Snooze Content
+
+```kotlin
+val snoozeTimeInHours: Long = 1
+engage.config().snoozeContent(snoozeTimeInHours)
+```
+
+### Important
+In order for snoozing feature to work, you need to record notification tap event whenever you handle notification taps.
+
+Example:
+
+```kotlin
+override fun onNewIntent(intent: Intent) {
+    super.onNewIntent(intent)
+    val (rule, action) = NotificationData.from(intent) ?: return
+    // record notification tap event
+    engage.recordNotificationTapEvent(rule)
+}
+```
 
 ### Log out from SDK
 
